@@ -1,0 +1,79 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+
+    </group>
+
+    <item
+        android:id="@+id/navigation_subheader5"
+        android:title="Recientes">
+        <menu>
+            <item
+                android:id="@+id/navigation_subheader2"
+                android:icon="@drawable/iconrecibidos"
+                android:iconTint="#F44336"
+                android:title="Todos los recibidos" />
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/iconmenu2"
+            android:icon="@drawable/iconmensajes"
+            android:title="Mensajes" />
+        <item
+            android:id="@+id/iconmenu3"
+            android:icon="@drawable/icondestacados"
+            android:title="Destacados"/>
+        <item
+            android:id="@+id/iconmenu4"
+            android:icon="@drawable/iconimpropuestos"
+            android:title="Pospuestos"/>
+        <item
+            android:id="@+id/iconmenu5"
+            android:icon="@drawable/iconimportantes"
+            android:title="Importantes"/>
+
+        <item
+            android:id="@+id/iconmenu6"
+            android:icon="@drawable/iconenviados"
+            android:title="Enviados"/>
+        <item
+            android:id="@+id/iconmenu7"
+            android:icon="@drawable/iconprogramados"
+            android:title="Programados"/>
+        <item
+            android:id="@+id/iconmenu8"
+            android:icon="@drawable/iconborradores"
+            android:title="Borradores"/>
+        <item
+            android:id="@+id/iconmenu9"
+            android:icon="@drawable/iconspam"
+            android:title="Spam"/>
+        <item
+            android:id="@+id/iconmenu10"
+            android:icon="@drawable/iconpapelera"
+            android:title="Papelera"/>
+
+    </group>
+
+    <item
+        android:id="@+id/navigation_subheader4"
+        android:title="Ajustes">
+        <menu>
+            <item
+                android:id="@+id/iconmenu11"
+                android:icon="@drawable/iconconfiguracion"
+                android:title="Configuracion"/>
+            <item
+                android:id="@+id/iconmenu12"
+                android:icon="@drawable/iconayuda"
+                android:title="Ayuda"/>
+            <item
+                android:id="@+id/iconmenu13"
+                android:icon="@drawable/iconcerrarsesion"
+                android:title="Cerrar Sesión"/>
+        </menu>
+    </item>
+</menu>
